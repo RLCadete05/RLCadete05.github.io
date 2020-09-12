@@ -1,0 +1,79 @@
+#rectangle{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #A2ADB8;
+}
+#rlc{
+    position: absolute;
+    /*width: 186px;
+    height: 50px;*/
+    left: 18px;
+    top: 25px;
+    text-decoration: none;
+    flex-direction: row;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    background: -webkit-linear-gradient(#615F8B, #444175);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+#options{
+    position: relative;
+    /*width: 95px;
+    height: 35px;
+    left: 945px;*/
+    float: right;
+    right: 0px;
+    top: 28px;
+    flex-direction: row;
+    text-decoration: none;
+    word-spacing: 30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    color: #444175;
+}
+#options:hover{
+    color: #ECDEB3 ;
+}
+#photoName{
+    position: absolute;
+    width: 100%;
+    height: 1500px;
+    left: 0px;
+    top: 80px;
+
+    background: -webkit-gradient(linear, left top, left bottom, from(#C4C4C4), to(#605E8D));
+    background: -moz-linear-gradient(top, #C4C4C4, #605E8D);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#C4C4C4', EndColorStr='#605E8D');  
+}
+
+#photoId{
+    position: absolute;
+    width: 237px;
+    height: 226px;
+    justify-content: center;
+    top: 28px;
+    flex-direction: column;
+    border-radius: 120px;
+    
+
+}
+#text{
+    position: relative;
+    color: #1A1848;
+    top: 300px;
+    text-align: center;
+}
