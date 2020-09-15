@@ -1,10 +1,25 @@
+/*body{
+
+    background-image: radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -o-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -ms-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -moz-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -webkit-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+}*/
 #rectangle{
-    position: absolute;
+    position: fixed;
+    z-index: 999;
     width: 100%;
     height: 80px;
+    right: 0px;
     left: 0px;
     top: 0px;
-    background: #A2ADB8;
+    background: #110e3c;
+ 
+    
+}
+#rectangle-after{
+    opacity: 90%;
 }
 #rlc{
     position: absolute;
@@ -15,16 +30,16 @@
     text-decoration: none;
     flex-direction: row;
     
-    font-family: Roboto;
+    font-family: Verdana;
     font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
+    font-weight: semi-bold;
+    font-size: 40px;
     line-height: 42px;
     text-align: center;
-    background: -webkit-linear-gradient(#615F8B, #444175);
+    background: -webkit-linear-gradient(#a06c74, #7c345a, #b0195e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+    615F8B
 }
 #options{
     position: relative;
@@ -43,10 +58,10 @@
     font-size: 20px;
     line-height: 35px;
     text-align: center;
-    color: #444175;
+    color: #ffffff;
 }
 #options:hover{
-    color: #ECDEB3 ;
+    color: #b0195e ;
 }
 #photoName{
     position: absolute;
@@ -54,26 +69,32 @@
     height: 1500px;
     left: 0px;
     top: 80px;
-
-    background: -webkit-gradient(linear, left top, left bottom, from(#C4C4C4), to(#605E8D));
-    background: -moz-linear-gradient(top, #C4C4C4, #605E8D);
-    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#C4C4C4', EndColorStr='#605E8D');  
+    background-image: radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -o-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -ms-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -moz-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+	background-image: -webkit-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#5b1c4d), to(#0f0c3b));
+    background: -moz-linear-gradient(top, #5b1c4d, #0f0c3b);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#5b1c4d', EndColorStr='#0f0c3b');*/  
 }
 
 #photoId{
     position: absolute;
-    width: 237px;
-    height: 226px;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
     justify-content: center;
+    left: 40%;
     top: 28px;
     flex-direction: column;
-    border-radius: 120px;
+    border-radius: 50%;
     
 
 }
 #text{
     position: relative;
-    color: #1A1848;
+    color: #ffffff;
     top: 300px;
     text-align: center;
 }
