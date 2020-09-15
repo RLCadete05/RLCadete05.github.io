@@ -39,7 +39,7 @@
     background: -webkit-linear-gradient(#a06c74, #7c345a, #b0195e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    615F8B
+   
 }
 #options{
     position: relative;
@@ -79,7 +79,8 @@
     filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#5b1c4d', EndColorStr='#0f0c3b');*/  
 }
 
-#photoId{
+
+#photoProfile{
     position: absolute;
     width: 250px;
     height: 250px;
@@ -89,9 +90,9 @@
     top: 28px;
     flex-direction: column;
     border-radius: 50%;
-    
-
+    border: 5px solid #b0195e ;
 }
+
 #text{
     position: relative;
     color: #ffffff;
