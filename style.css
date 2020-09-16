@@ -1,11 +1,4 @@
-/*body{
 
-    background-image: radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
-	background-image: -o-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
-	background-image: -ms-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
-	background-image: -moz-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
-	background-image: -webkit-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
-}*/
 #rectangle{
     position: fixed;
     z-index: 999;
@@ -23,8 +16,7 @@
 }
 #rlc{
     position: absolute;
-    /*width: 186px;
-    height: 50px;*/
+
     left: 18px;
     top: 25px;
     text-decoration: none;
@@ -33,14 +25,15 @@
     font-family: Verdana;
     font-style: normal;
     font-weight: semi-bold;
-    font-size: 40px;
+    font-size: 45px;
     line-height: 42px;
     text-align: center;
     background: -webkit-linear-gradient(#a06c74, #7c345a, #b0195e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-   
+
 }
+
 #options{
     position: relative;
     /*width: 95px;
@@ -55,7 +48,7 @@
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 35px;
     text-align: center;
     color: #ffffff;
@@ -66,7 +59,7 @@
 #photoName{
     position: absolute;
     width: 100%;
-    height: 1500px;
+    height: 2000px;
     left: 0px;
     top: 80px;
     background-image: radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
@@ -74,12 +67,7 @@
 	background-image: -ms-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
 	background-image: -moz-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
 	background-image: -webkit-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
-    /*background: -webkit-gradient(linear, left top, left bottom, from(#5b1c4d), to(#0f0c3b));
-    background: -moz-linear-gradient(top, #5b1c4d, #0f0c3b);
-    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#5b1c4d', EndColorStr='#0f0c3b');*/  
 }
-
-
 #photoProfile{
     position: absolute;
     width: 250px;
@@ -87,7 +75,7 @@
     padding: 10px;
     justify-content: center;
     left: 40%;
-    top: 28px;
+    top: 40px;
     flex-direction: column;
     border-radius: 50%;
     border: 5px solid #b0195e ;
@@ -95,7 +83,43 @@
 
 #text{
     position: relative;
+    font-style: Roboto;
     color: #ffffff;
     top: 300px;
     text-align: center;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: Roboto;
+}
+h2{
+    font-size: 24px;
+    font-style: Roboto;
+}
+p{
+    font-size: 20px;
+    font-style: Roboto;
+}
+.container{
+    max-width: 450px;
+	margin: 0 auto;
+	display: flex;
+    border: 5px solid #b0195e;
+    flex-wrap: wrap;
+}
+#item{
+    flex: 1;
+	margin: 20px;
+	text-align: center;
+	
+}
+.icons{
+    font-size: 50px; 
+    text-decoration: none;
+    color: #ffffff;
+    word-spacing: 30px;
+}
+.icons:visited{
+    color: #b0195e;
 }
