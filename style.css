@@ -1,14 +1,12 @@
-
 #rectangle{
     position: fixed;
     z-index: 999;
     width: 100%;
-    height: 80px;
+    height: 100px;
     right: 0px;
     left: 0px;
     top: 0px;
     background: #110e3c;
- 
     
 }
 #rectangle-after{
@@ -16,12 +14,10 @@
 }
 #rlc{
     position: absolute;
-
     left: 18px;
     top: 25px;
     text-decoration: none;
     flex-direction: row;
-    
     font-family: Verdana;
     font-style: normal;
     font-weight: semi-bold;
@@ -32,17 +28,30 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
-}
-
+}/*
+.rlcBorder{
+    width: 10px;
+    height: 5px;
+    border-top: 2px solid #b0195e;
+    border-right: 2px solid #b0195e;
+    margin: 0 auto;
+    padding: 8px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}*/
 #options{
-    position: relative;
     /*width: 95px;
     height: 35px;
     left: 945px;*/
+    top: 28px;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
     float: right;
     right: 0px;
-    top: 28px;
     flex-direction: row;
+    flex-wrap: wrap;
     text-decoration: none;
     word-spacing: 30px;
     font-family: Roboto;
@@ -59,7 +68,7 @@
 #photoName{
     position: absolute;
     width: 100%;
-    height: 2000px;
+    height: 2300px;
     left: 0px;
     top: 80px;
     background-image: radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
@@ -69,15 +78,13 @@
 	background-image: -webkit-radial-gradient(center bottom, ellipse cover, #5b1c4d, #0f0c3b);
 }
 #photoProfile{
-    position: absolute;
+    display: flex;
+    max-width: 100%;
     width: 250px;
     height: 250px;
     padding: 10px;
-    justify-content: center;
-    left: 40%;
-    top: 40px;
-    flex-direction: column;
     border-radius: 50%;
+    margin: 50px auto;
     border: 5px solid #b0195e ;
 }
 
@@ -85,7 +92,7 @@
     position: relative;
     font-style: Roboto;
     color: #ffffff;
-    top: 300px;
+    top: 30px;
     text-align: center;
 }
 h1{
@@ -102,15 +109,14 @@ p{
     font-style: Roboto;
 }
 .container{
-    max-width: 450px;
+    max-width: 550px;
 	margin: 0 auto;
 	display: flex;
-    border: 5px solid #b0195e;
     flex-wrap: wrap;
 }
 #item{
     flex: 1;
-	margin: 20px;
+	margin: 30px;
 	text-align: center;
 	
 }
