@@ -26,7 +26,7 @@ main {
 }
 nav, header, main, footer {
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding: 5px;
 }
 section, aside {
@@ -38,11 +38,6 @@ footer{
 }
 
 
-/*velho*/
-
-#rectangle-after{
-    opacity: 90%;
-}
 #rlc{
     position: absolute;
     top: 25px;
@@ -57,45 +52,8 @@ footer{
     background: -webkit-linear-gradient(#a06c74, #7c345a, #b0195e);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
-}/*
-.rlcBorder{
-    width: 10px;
-    height: 5px;
-    border-top: 2px solid #b0195e;
-    border-right: 2px solid #b0195e;
-    margin: 0 auto;
-    padding: 8px 5px;
-    display: flex;
-    flex-wrap: wrap;
-}*/
-#options{
-    /*width: 95px;
-    height: 35px;
-    left: 945px;*/
-    top: 28px;
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
-    padding-right: 15px;
-    position: relative;
-    float: right;
-    right: 0px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-decoration: none;
-    word-spacing: 30px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 35px;
-    text-align: center;
-    color: #ffffff;
-}
-#options:hover{
-    color: #b0195e ;
-}
 #photoName{
     position: absolute;
     width: 100%;
@@ -118,14 +76,6 @@ footer{
     margin: 50px auto;
     border: 5px solid #b0195e ;
 }
-
-/*#text{
-    position: relative;
-    font-style: Roboto;
-    color: #ffffff;
-    top: 30px;
-    text-align: center;
-}*/
 h1{
     font-size: 40px;
     font-weight: bold;
@@ -143,10 +93,11 @@ p{
     color: #ffffff;
 }
 .container{
-    max-width: 550px;
 	margin: 0 auto;
 	display: flex;
     flex-wrap: wrap;
+    clear: both;
+    height:30%;
 }
 #item{
     flex: 1;
@@ -154,14 +105,10 @@ p{
 	text-align: center;
     width: 100px; 
     height: 120px;
-	
 }
 .icons{
     font-size: 50px; 
     text-decoration: none;
     color: #ffffff;
     word-spacing: 30px;
-}
-.icons:visited{
-    color: #b0195e;
 }
